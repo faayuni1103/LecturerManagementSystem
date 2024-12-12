@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="listlayout.css">
+<body>
+    <div class= 'header'>
+        <div class="logo">
+            <a href = "#!/student-detail"><img src="image/backbutton.png" alt="backbtn" title="backbtn" ALIGN="bottom" width="85"/></a> 
+            <div class="rcorner"></div>
+            <div class="list">
+                <div class="list1">List of</div>
+                <div class="list2">Subject</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="justifylist">
+        <div id="listname">
+            <table id="course"  ng-repeat="item in course">
+                <tr>
+                    <td id="code">{{ item.courseCode }} - {{ item.section }}
+                </tr>
+                <tr>
+                    <td id="credit">{{ item.credit }} CREDIT</td>
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</body>

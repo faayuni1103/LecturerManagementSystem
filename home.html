@@ -1,0 +1,101 @@
+<div>
+    <body>
+        <div class= 'header'>
+            <div class='logo'>
+                <div class='logoutm'><img src="image/logoutm.png" alt="UTM Logo" title="UTM Logo" width="85"/></div>
+                <div class="rcorner"></div>
+                <div class="gmname">
+                    <div class='time'>Good Morning,</div>
+                    <a class="name" href="#!/profile">{{ lname }}</a>
+                </div>
+                <div class='logoutimg'><img src="image/logout.png" alt="logout icon" title="Logout" width="65" ng-click="logout()"/></div>
+            </div>
+        </div>
+    
+        <link rel="stylesheet" href="layout.css">
+
+        <div id="menu-bar" ng-show="lect">
+            <ul>
+                <div class="select">
+                    <a href="#!/home" class="home">Home</a>
+                    <div class="hcorner"></div>
+                </div>
+                <a href="#!/lecturer" class="lect">Lecturer</a>
+                <a href="#!/student" class="stud">Student</a>
+                <a href="#!/book-venue" class="book">Book Venue</a>
+            </ul>
+        </div>
+
+        <div id="semua1">
+            <div id="rect" ng-show="lect">
+                <div id="timetable">
+                <div class="today">
+                    Today, Sunday</div>
+                <div class="justifySubj">
+                    <table class="subj1" ng-repeat="item in course | filter: { day: 'Sunday' }">
+                        <tr>
+                            <td class="startend">{{ item.startime }}</td>
+                            <td class="codesec">{{ item.courseCode }} - {{ item.section}}</td>
+                        </tr>
+                        <tr>
+                            <td class="startend">{{ item.endtime }}</td>
+                            <td class="location">{{ item.location }}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="day">
+                    Monday</div>
+                    <table class="subj1" ng-repeat="item in course | filter: { day: 'Monday' }">
+                        <tr>
+                            <td class="startend">{{ item.startime }}</td>
+                            <td class="codesec">{{ item.courseCode }} - {{ item.section}}</td>
+                        </tr>
+                        <tr>
+                            <td class="startend">{{ item.endtime }}</td>
+                            <td class="location">{{ item.location }}</td>
+                        </tr>
+                        </table>
+                <div class="day">Tuesday</div>
+                    <table class="subj1" ng-repeat="item in course | filter: { day: 'Tuesday' }">
+                        <tr>
+                            <td class="startend">{{ item.startime }}</td>
+                            <td class="codesec">{{ item.courseCode }} - {{ item.section}}</td>
+                        </tr>
+                        <tr>
+                            <td class="startend">{{ item.endtime }}</td>
+                            <td class="location">{{ item.location }}</td>
+                        </tr>
+                        </table>
+                    <div class="day">Wednesday</div>
+                    <table class="subj1" ng-repeat="item in course | filter: { day: 'Wednesday' }">
+                        <tr>
+                            <td class="startend">{{ item.startime }}</td>
+                            <td class="codesec">{{ item.courseCode }} - {{ item.section}}</td>
+                        </tr>
+                        <tr>
+                            <td class="startend">{{ item.endtime }}</td>
+                            <td class="location">{{ item.location }}</td>
+                        </tr>
+                        </table>
+                        <div class="day">Thursday</div>
+                    <table class="subj1" ng-repeat="item in course | filter: { day: 'Thursday' }">
+                        <tr>
+                            <td class="startend">{{ item.startime }}</td>
+                            <td class="codesec">{{ item.courseCode }} - {{ item.section}}</td>
+                        </tr>
+                        <tr>
+                            <td class="startend">{{ item.endtime }}</td>
+                            <td class="location">{{ item.location }}</td>
+                        </tr>
+                        </table>
+                    </div>
+                </div>
+
+        <div id="menu-bar" ng-hide="lect">
+            <div id="loginbtn">
+                <br><a href="#!/login">Login</a>
+            </div>
+        </div>
+    </body>
+</div>

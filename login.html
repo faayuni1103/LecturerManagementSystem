@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="layout.css">
+<body>
+    <div class= 'header'>
+        <div class='logo'>
+            <div class='utmlogo'><img src="image/utmlogo.png" alt="UTM Logo" title="UTM Logo" width="250"/></div>
+            <div class="rcorner"></div>
+            <div class="fac">
+            <div class='faculty'>Faculty of</div>
+            <div class='faculty1'>Computing</div>
+            </div>
+        </div>
+    </div>
+
+    <div class='welcome'>Welcome!</div>
+        <div id="login">
+            <form method="post" action="">
+                <div class = "input">
+                    <p><input class="text" placeholder="Username" ng-model="username" type="text"/></p>
+                    <p><input class="password" placeholder="Password" ng-model="password" type="password"/></p>
+                </div>
+                <p><input class = "loginbtn" ng-click="login(username, password)"value="Log in" /></p>
+            </form>
+        </div>
+</body>

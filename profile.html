@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="profile.css">
+<body>
+    <header>
+        <div id="logo">
+            <a href = "#!/home"><img src="image/logoutm.png" alt="UTM Logo" title="UTM Logo" ALIGN="bottom" width="85"/> </a>
+            <div class="rcorner"></div>
+            <div class="myprofile">My Profile</div>
+        </div>
+    </header>
+
+    <div>
+        <div id="info">
+            <img src="{{ limg }}" alt="profile" title="profile" ALIGN="bottom" width="150"/> 
+            <div class="name">{{ lname }}</div>
+            <div class="position">{{ lposition }} ({{ lrblock }})</div>
+            <div class="fakulti">{{ lfaculty }}</div>
+            <div class="email">{{ lemail }}</div>
+            <p>ID</p>
+            <div class="justifytext">
+            <div class="text">{{ lstaffID }}</div>
+            </div>
+            <p>Office No</p>
+            <div class="justifytext">
+            <div class="text">{{ lroomNo }}</div>
+            </div>
+            <p><input class = "logoutbtn" ng-click="logout()" value="Logout" /></p>
+        </div>
+    </div>
+
+</body>

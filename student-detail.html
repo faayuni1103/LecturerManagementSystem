@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="profile.css">
+<body>
+    <header>
+        <div id="logo">
+            <a href = "#!/student"><img src="image/backbutton.png" alt="backbtn" title="backbtn" ALIGN="bottom" width="85"/></a> 
+            <div class="rcorner"></div>
+            <div class="myprofile">Student</div>
+        </div>
+    </header>
+
+    <div>
+        <div id="info" >
+            <img src="{{ img }}" alt="profile" title="profile" ALIGN="bottom" width="150"/> 
+            <div class="name">{{ name }}</div>
+            <div class="position">Pelajar</div>
+            <div class="fakulti">{{ faculty }}</div>
+            <div class="email">{{ email }}</div>
+            <p>Matric No.</p>
+            <div class="ID">{{ matricID }}</div>
+            <p>Year/Course</p>
+            <div class="yearcourse">{{ year }}/{{ progCode }}</div>
+            <p><input class = "logoutbtn" ng-click="viewtotalsub()" value="View Total Subject" /></p>
+            <p><input class = "logoutbtn" ng-click="viewtimetable()" value="View Timetable" /></p>
+        </div>
+    </div>
+</body>

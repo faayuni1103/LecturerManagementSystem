@@ -1,0 +1,122 @@
+[{
+    "courseCode" : "SECV3223",
+    "courseName" : "Application Development",
+    "section" : 2,
+    "session" : 20222023,
+    "semester" : 5,
+    "credit" : 4,
+    "studNo" : 40,
+    "location" : "MPK 5",
+    "time": "1100 - 1300",
+    "day": "Wednesday"
+}, {
+    "courseCode" : "SECJ3553",
+    "courseName" : "Artificial Intelligent",
+    "section" : 2,
+    "session" : 20222023,
+    "semester" : 5,
+    "credit" : 3,
+    "studNo" : 30,
+    "location" : "MPK 7",
+    "time": "1000 - 1300",
+    "day": "Thursday"
+}, {
+    "courseCode" : "SECV3113",
+    "courseName" : "Geometric Modelling",
+    "section" : 2,
+    "session" : 20222023,
+    "semester" : 5,
+    "credit" : 3,
+    "studNo" : 20,
+    "location" : "MPK 9",
+    "time": "0800 - 1100",
+    "day": "Sunday"
+}, {
+    "courseCode" : "SECV3213",
+    "courseName" : "Fundamental Image Processing",
+    "section" : 2,
+    "session" : 20222023,
+    "semester" : 5,
+    "credit" : 3,
+    "studNo" : 30,
+    "location" : "MPK 5",
+    "time": "0800 - 1100",
+    "day": "Monday"
+}, {
+    "courseCode" : "SCSB3103",
+    "courseName" : "Bioinformatics II",
+    "section" : 1,
+    "session" : 20222023,
+    "semester" : 5,
+    "credit" : 4,
+    "studNo" : 40,
+    "location" : "DK 3",
+    "time": "1000 - 1300",
+    "day": "Tuesday"
+}, {
+    "courseCode" : "SQBS3683",
+    "courseName" : "Stucture & Function of Protein",
+    "section" : 1,
+    "session" : 20222023,
+    "semester" : 5,
+    "credit" : 4,
+    "studNo" : 25,
+    "location" : "MPK 5",
+    "time": "1400 - 1600",
+    "day": "Thursday"
+}, {
+    "courseCode" : "SCSB3203",
+    "courseName" : "Programming for Bioinformatics",
+    "section" : 1,
+    "session" : 20222023,
+    "semester" : 5,
+    "credit" : 4,
+    "studNo" : 45,
+    "location" : "MPK 9",
+    "time": "1100 - 1300",
+    "day": "Monday"
+}, {
+    "courseCode" : "SCSJ3603",
+    "courseName" : "Knowledge-based & Expert System",
+    "section" : 2,
+    "session" : 20222023,
+    "semester" : 5,
+    "credit" : 2,
+    "studNo" : 30,
+    "location" : "MPK 2",
+    "time": "1100 - 1300",
+    "day": "Sunday"
+}, {
+    "courseCode" : "SCSJ3343",
+    "courseName" : "Software Quality Assurance",
+    "section" : 2,
+    "session" : 20222023,
+    "semester" : 5,
+    "credit" : 3,
+    "studNo" : 20,
+    "location" : "BK 4",
+    "time": "1400 - 1700",
+    "day": "Sunday"
+}, {
+    "courseCode" : "SCSJ3303",
+    "courseName" : "Internet Programming",
+    "section" : 2,
+    "session" : 20222023,
+    "semester" : 5,
+    "credit" : 3,
+    "studNo" : 35,
+    "location" : "MPK 7",
+    "time": "1400 - 1600",
+    "day": "Tuesday"
+}, {
+    "courseCode" : "SCSJ3203",
+    "courseName" : "Theory of Computer ScienceS",
+    "section" : 2,
+    "session" : 20222023,
+    "semester": 5,
+    "credit" : 2,
+    "studNo" : 30,
+    "location" : "MPK 8",
+    "time": "1400 - 1600",
+    "day": "Monday"
+}]

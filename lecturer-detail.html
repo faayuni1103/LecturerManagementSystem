@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="profile.css">
+<body>
+    <header>
+        <div id="logo">
+            <a href = "#!/lecturer"><img src="image/backbutton.png" alt="backbtn" title="backbtn" ALIGN="bottom" width="85"/></a> 
+            <div class="rcorner"></div>
+            <div class="myprofile">Lecturer</div>
+        </div>
+    </header>
+
+    <div id="justifyinfo">
+        <div id="info">
+            <img src="{{ img }}" alt="profile" title="profile" ALIGN="bottom" width="150"/> 
+            <div class="name">{{ name }}</div>
+            <div class="position">{{ position }} ({{ rblock }})</div>
+            <div class="fakulti">{{ faculty }}</div>
+            <div class="email">{{ email }}</div>
+            <p>ID</p>
+            <div class="ID">{{ staffID }}</div>
+            <p>Office No</p>
+            <div class="office">{{ roomNo }}</div>
+            <p><input class = "logoutbtn" type="submit" ng-click="viewsubject()" value="View Total Subject" /></p>
+        </div>
+    </div>
+</body>

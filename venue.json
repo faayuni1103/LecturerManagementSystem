@@ -1,0 +1,71 @@
+[{
+    "spacecode": "N28-105-05", 
+    "rname": "Makmal Pengatucaraan Komputer 5",
+    "rcode": "MPK5",
+    "block": "N28",
+    "capacity": 50,
+    "available": true
+}, {
+    "spacecode": "N28-105-07", 
+    "rname": "Makmal Pengatucaraan Komputer 7",
+    "rcode": "MPK7",
+    "block": "N28",
+    "capacity": 70,
+    "available": true
+}, {
+    "spacecode": "N28a-105-05", 
+    "rname": "Makmal Pengatucaraan Komputer 5",
+    "rcode": "MP5",
+    "block": "N28a",
+    "capacity": 50,
+    "available": true
+}, {
+    "spacecode": "N28-104-02", 
+    "rname": "Bilik Kuliah 2",
+    "rcode": "BK2",
+    "block": "N28",
+    "capacity": 500,
+    "available": true
+}, {
+    "spacecode": "N24-104-07", 
+    "rname": "Bilik Kuliah 7",
+    "rcode": "BK7",
+    "block": "N24",
+    "capacity": 1000,
+    "available": true
+}, {
+    "spacecode": "N28-105-01", 
+    "rname": "Makmal Pengatucaraan Komputer 5",
+    "rcode": "MPK5",
+    "block": "N28",
+    "capacity": 50,
+    "available": true
+}, {
+    "spacecode": "N28-106-01", 
+    "rname": "Makmal Pengatucaraan Komputer 6",
+    "rcode": "MPK6",
+    "block": "N28",
+    "capacity": 40,
+    "available": true
+}, {
+    "spacecode": "N24-DK3", 
+    "rname": "Dewan Kuliah 3",
+    "rcode": "DK3",
+    "block": "N24",
+    "capacity": 100,
+    "available": true
+}, {
+    "spacecode": "N24-BK6", 
+    "rname": "Bilik Kuliah 6",
+    "rcode": "BK6",
+    "block": "N24",
+    "capacity": 50,
+    "available": true
+}, {
+    "spacecode": "N28-109-01", 
+    "rname": "Makmal Pengatucaraan Komputer 9",
+    "rcode": "MPK9",
+    "block": "N28",
+    "capacity": 44,
+    "available": true
+}]

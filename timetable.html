@@ -1,0 +1,76 @@
+<link rel="stylesheet" href="profile.css">
+<body>
+    <div id="logo">
+        <a href = "#!/student-detail"><img src="image/backbutton.png" alt="backbtn" title="backbtn" ALIGN="bottom" width="85"/></a> 
+        <div class="rcorner"></div>
+        <div class="myprofile">Timetable</div>
+    </div>
+
+        <div id="semua1">
+        <div id="rect" ng-show="lect">
+        <div id="timetable">
+        <div class="today">Today, Sunday</div>    
+            <div class="justifySubj">
+                <table class="subj1" ng-repeat="item in course | filter: { day: 'Sunday' }">
+                    <tr>
+                        <td class="startend">{{ item.startime }}</td>
+                        <td class="codesec">{{ item.courseCode }} - {{ item.section}}</td>
+                    </tr>
+                    <tr>
+                        <td class="startend">{{ item.endtime }}</td>
+                        <td class="location">{{ item.location }}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="day">Monday</div>
+        <table class="subj1" ng-repeat="item in course | filter: { day: 'Monday' }">
+            <tr>
+                <td class="startend">{{ item.startime }}</td>
+                <td class="codesec">{{ item.courseCode }} - {{ item.section}}</td>
+            </tr>
+            <tr>
+                <td class="startend">{{ item.endtime }}</td>
+                <td class="location">{{ item.location }}</td>
+            </tr>
+        </table>
+
+        <div class="day">Tuesday</div>
+        <table class="subj1" ng-repeat="item in course | filter: { day: 'Tuesday' }">
+            <tr>
+                <td class="startend">{{ item.startime }}</td>
+                <td class="codesec">{{ item.courseCode }} - {{ item.section}}</td>
+            </tr>
+            <tr>
+                <td class="startend">{{ item.endtime }}</td>
+                <td class="location">{{ item.location }}</td>
+            </tr>
+        </table>
+
+        <div class="day">Wednesday</div>
+        <table class="subj1" ng-repeat="item in course | filter: { day: 'Wednesday' }">
+            <tr>
+                <td class="startend">{{ item.startime }}</td>
+                <td class="codesec">{{ item.courseCode }} - {{ item.section}}</td>
+            </tr>
+            <tr>
+                <td class="startend">{{ item.endtime }}</td>
+                <td class="location">{{ item.location }}</td>
+            </tr>
+        </table>
+
+        <div class="day">Thursday</div>
+        <table class="subj1" ng-repeat="item in course | filter: { day: 'Thursday' }">
+            <tr>
+                <td class="startend">{{ item.startime }}</td>
+                <td class="codesec">{{ item.courseCode }} - {{ item.section}}</td>
+            </tr>
+            <tr>
+                <td class="startend">{{ item.endtime }}</td>
+                <td class="location">{{ item.location }}</td>
+            </tr>
+        </table>
+        </div>
+        </div>
+</body>
