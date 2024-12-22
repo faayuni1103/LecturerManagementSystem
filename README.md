@@ -1,2 +1,2 @@
 # LecturerManagementSystem
- Implementation of Angular framework for Application Development final project.
+ Implementation of AngularJS for Application Development final project.
